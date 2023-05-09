@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #jao, #dan {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  #jao p, #dan p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+  }
+  
+  #anime {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #anime p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
