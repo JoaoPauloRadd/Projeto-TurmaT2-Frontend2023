@@ -1,0 +1,162 @@
+header{
+    background: rgb(116,50,178);
+    background: radial-gradient(circle, rgba(116,50,178,1) 0%, rgba(116,50,178,1) 25%, rgba(155,81,224,1) 49%, rgba(116,50,178,1) 75%);
+    align-items: center;
+    justify-items: center;
+    padding: 25px 4px 0px 4px;
+    
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(bg_somosproz.svg);
+    margin-top:30px;
+}
+html{
+    padding: 0px;
+    margin: 0%;
+}
+
+nav div{
+    text-align: center;
+    color: white;
+    margin: 0px !important;
+    padding: 1px 0px !important;
+    border-right:1px white solid;
+}
+nav div:hover{
+    border:1px white solid;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+nav{
+    background-color: #9b51e0;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px #9b51e0 solid;
+    padding: 1px 0px !important;
+}
+
+
+h1{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+main{
+    background-color: white;
+    margin: auto 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-right: #9b51e0 1px solid;
+    border-left: #9b51e0 1px solid;
+    border-bottom: #9b51e0 1px solid;
+}
+footer{
+    background-color: #9b51e0;
+    position: fixed;
+    height: 50px;
+
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    z-index: 5;
+}
+
+footer p{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.dropdown{
+    border: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+    width: 70%;
+}
+
+nav a{
+    text-decoration:none;
+    color: white;
+}
+a[href="index.html"]{
+    text-decoration:none;
+    color: white;
+}
+
+nav a:hover{
+    color:white;
+}
+
+a[href="index.html"]:hover{
+    color:white;
+}
+
+.carousel-item{
+    height: 400px !important;
+    line-height: 100% !important;
+    
+}
+
+.carousel-item p{
+    color: white !important;
+}
+
+#carousel-1{
+    background: rgb(255,105,0);
+    background: radial-gradient(circle, #ff6900 85%, rgba(155,81,224,1) 100%);
+    margin: auto !important;
+}
+
+#carousel-2{
+    background: rgb(155,81,224);
+    background: radial-gradient(circle, rgba(155,81,224,1) 0%, rgba(255,105,0,1) 35%);
+    
+}
+
+#carousel-3{
+    background: rgb(255,105,0);
+    background: linear-gradient(90deg, rgba(255,105,0,1) 0%, rgba(155,81,224,1) 8%, rgba(255,105,0,1) 15%, rgba(251,104,9,1) 85%, rgba(155,81,224,1) 92%, rgba(255,105,0,1) 100%);
+}
+
+hr{
+    width: 100% !important;
+}
+
+.jumboStyle{
+    background-color: #9b51e0;
+}
+.jumboStyle p{
+    color: #ffffff !important;
+}
+main p,h2{
+    color: #5b3083;
+    text-indent: 10px;
+    font-weight: bold;
+}
+
+
+
+p.reference{
+    font-size: smaller;
+    font-style: italic;
+    font-weight: normal !important;
+}
+
+img[title="Somos a Proz"]{
+    margin: 0px auto;
+}
+thead th{
+    color: #ffffff;
+    background-color: #ff6900 !important;
+}
