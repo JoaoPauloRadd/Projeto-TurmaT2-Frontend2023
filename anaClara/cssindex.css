@@ -1,0 +1,42 @@
+#cd{margin-left:400px;}
+
+.img1{margin-left:250px;
+    }
+	
+.img2{margin-left:50;}
+
+.cd{margin-left:350px;}
+
+.a{margin-left:100;
+  color:#000;
+  background-color:#dddddd;
+  border:1px solid black;
+  width:290px;
+  display:block;
+  padding:3px 5px;}
+  
+#a:hover{text-decoration:none;
+        color:#000000;
+		background-color:#75E8D5}
+		
+.nav ul li{color:#ffffff;
+  background-color:#00CC66;
+  border:1px solid black;
+  width:200px;
+  height:300px;
+  padding:5px 5px;
+  }
+
+#tex{text-align:justify;}
+
+
+.tex{width:600;
+	 height:;
+	 margin-left:200px;}
+
+
+nav ul li{display:inline}
+
+.title{text-align:center;
+       font-size:h2;}
+	   
