@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="equipe.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      * {
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .linear {
+        background: linear-gradient(
+          180deg,
+          #b9b5c3 2.09%,
+          rgba(217, 217, 217, 0) 86.2%
+        );
+        mix-blend-mode: normal;
+      }
+    </style>
+    <title>Adopet</title>
+  </head>
+  <body class="bg-[#fbfbfb]">
+    <header
+      class="flex items-center justify-between w-full h-10 px-[5%] absolute z-10"
+    >
+      <a href="/index.html"><img src="img/logoAdopet.svg" alt="" /></a>
+      <nav class="flex gap-4">
+        <a
+          href="index.html"
+          class="text-lg text-[#8469DE] font-semibold hover:opacity-70"
+          >Início</a
+        >
+        <a
+          href="equipe.html"
+          class="text-lg text-[#8469DE] font-semibold hover:opacity-70"
+          >Equipe</a
+        >
+      </nav>
+    </header>
+
+    <section class="pt-20 flex flex-col items-center gap-8 pb-10 linear">
+      <h2 class="text-[#282433] font-bold text-4xl text-center">Nossa equipe de DEVS:</h2>
+      <div class="flex flex-wrap w-full gap-8 items-center justify-center">
+        <div
+          class="max-w-[300px] w-[90%] h-[300px] flex flex-col items-center justify-center gap-8 bg-[#D9D9D9] rounded-xl py-10"
+        >
+          <a
+            href="https://www.linkedin.com/in/pedro-abs"
+            target="_blank"
+            rel="external"
+            ><img
+              src="img/linkedin.png"
+              alt=""
+              class="w-10 h-10 fill-[#282433]"
+          /></a>
+          <h2 class="text-[#8469DE] text-2xl font-bold">Pedro Augusto</h2>
+        </div>
+        <div
+          class="max-w-[300px] w-[90%] h-[300px] flex flex-col items-center justify-center gap-8 bg-[#D9D9D9] rounded-xl py-10"
+        >
+          <a
+            href="https://www.linkedin.com/in/gustavo-souza-b965a0248"
+            target="_blank"
+            rel="external"
+            ><img
+              src="img/linkedin.png"
+              alt=""
+              class="w-10 h-10 fill-[#282433]"
+          /></a>
+          <h2 class="text-[#8469DE] text-2xl font-bold">Gustavo Souza</h2>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="w-full bg-[#282433] flex flex-col gap-4 items-center justify-between py-2"
+    >
+      <span class="text-white text-lg font-semibold"
+        >Entre em contato conosco!</span
+      >
+      <div class="flex gap-4">
+        <a
+          href="https://www.instagram.com/adopetoficial"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="img/insta.svg" alt="" class="w-6 h-6"
+        /></a>
+        <a href="#"><img src="img/mail.svg" alt="" class="w-6 h-6" /></a>
+      </div>
+      <a href="/index.html"><img src="img/logo2.svg" alt="" class="w-14" /></a>
+      <span class="text-white text-lg font-light"
+        >© Adopet 2023 - Todos os Direitos Reservados</span
+      >
+    </footer>
+  </body>
+</html>

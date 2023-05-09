@@ -1,0 +1,3 @@
+#cards:has(div:hover) > :not(:hover) {
+    opacity: .6;
+}

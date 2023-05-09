@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+      * {
+        font-family: "Montserrat", sans-serif;
+      }
+      html, body {
+        scroll-behavior: smooth;
+      }
+
+      .linear {
+        background: linear-gradient(
+          180deg,
+          #b9b5c3 2.09%,
+          rgba(217, 217, 217, 0) 86.2%
+        );
+        mix-blend-mode: normal;
+      }
+    </style>
+    <title>Adopet</title>
+  </head>
+  <body class="bg-[#fbfbfb]">
+    <header
+      class="flex items-center justify-between w-full h-10 px-[5%] absolute z-10"
+    >
+      <a href="/index.html"><img src="img/logoAdopet.svg" alt="" /></a>
+      <nav class="flex gap-4">
+        <a
+          href="index.html"
+          class="text-lg text-[#8469DE] font-semibold hover:opacity-70"
+          >Início</a
+        >
+        <a
+          href="equipe.html"
+          class="text-lg text-[#8469DE] font-semibold hover:opacity-70"
+          >Equipe</a
+        >
+      </nav>
+    </header>
+    <section
+      id="section1 "
+      class="flex flex-col sm:items-center relative w-full px-[5%] pt-20 gap-9 linear overflow-hidden"
+    >
+      <img
+        src="img/corgi.png"
+        alt=""
+        class="absolute z-0 -right-32 sm:right-10 lg:right-60"
+      />
+      <div id="textos" class="w-min z-10 sm:mr-80">
+        <div id="textoGrande" class="text-center">
+          <h2 class="text-4xl font-medium text-[#8469de]">Não compre!</h2>
+          <h1 class="text-7xl font-bold text-[#282433]">ADOTE</h1>
+        </div>
+        <p class="text-sm font-regular text-[#282433]">
+          Você acredita em um mundo todos os animais possam ter uma casa? Nós
+          sim! <br />
+          Por isso ajudamos
+          <span class="text-[#8469DE]">abrigos e canis</span> a encontrarem
+          donos carinhosos para seus animais.
+        </p>
+      </div>
+      <a
+        href="#footer"
+        class="z-10 self-center text-base px-8 py-6 bg-[#ffbb00] border border-[#ffbb00] hover:bg-transparent hover:text-[#ffbb00] rounded-xl text-[#FBFBFB]"
+      >
+        Encontre um amigo!
+      </a>
+    </section>
+
+    <section
+      id="section2"
+      class="flex justify-center items-center flex-wrap-reverse gap-4 px-[5%] py-10 w-full"
+    >
+      <div class="w-full max-w-md relative h-80">
+        <div
+          class="absolute bg-[#FFDDDD] w-48 h-48 rounded-full right-28 top-6 overflow-hidden"
+        >
+          <img
+            src="./img/dog1.png"
+            alt=""
+            class="absolute -bottom-20 -right-10"
+          />
+        </div>
+        <div
+          class="absolute bg-[#D9D9D9] w-24 h-24 rounded-full right-20 overflow-hidden"
+        >
+          <img
+            src="./img/cat1.png"
+            alt=""
+            class="absolute -bottom-6 -right-4"
+          />
+        </div>
+        <div
+          class="absolute bg-[#FFBB00] w-28 h-28 rounded-full right-10 bottom-4 overflow-hidden"
+        >
+          <img src="./img/dog2.png" alt="" class="absolute right-4 -bottom-4" />
+        </div>
+      </div>
+      <div class="flex flex-col items-center w-fit gap-2">
+        <div class="max-w-md flex flex-col">
+          <div class="w-max">
+            <span class="text-3xl font-semibold text-[#8469de]">Sobre</span>
+            <h3 class="text-4xl font-bold text-[#282433] text-center">
+              Quem somos?
+            </h3>
+          </div>
+          <p class="text-[#606060] text-lg font-medium pl-2">
+            Somos um projeto que tem como objetivo ajudar abrigos a encontrarem
+            novos donos para seus pets
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center gap-10 w-full">
+          <div class="flex flex-col text-center items-center">
+            <span class="text-[#FB0] font-semibold text-4xl"> 0 </span>
+            <span class="text-[#606060] font-semibold text-xl">
+              Pets <br />
+              adotados
+            </span>
+          </div>
+          <div class="flex flex-col text-center items-center">
+            <span class="text-[#FB0] font-semibold text-4xl"> 0 </span>
+            <span class="text-[#606060] font-semibold text-xl">
+              Parceiros
+            </span>
+          </div>
+          <div class="flex flex-col text-center items-center">
+            <span class="text-[#FB0] font-semibold text-4xl"> 0 </span>
+            <span class="text-[#606060] font-semibold text-xl">
+              Pets <br />
+              adotados
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="flex flex-col items-center gap-4">
+      <div id="textos" class="flex flex-col items-center max-w-full">
+        <h3 class="text-2xl font-bold text-[#282433] text-center">
+          Como Funciona?
+        </h3>
+        <p class="text-xs text-center w-[80%] font-medium text-[#606060]">
+          Fazemos com que o processo de encontro e apresentação o mais
+          confortável o possível, tanto para os novos donos, quanto para os
+          pets!
+        </p>
+      </div>
+      <div id="cards" class="flex flex-wrap justify-center gap-8 py-8">
+        <div
+          id="card1"
+          class="w-32 flex flex-col items-center text-center gap-1"
+        >
+          <div class="w-fit p-5 bg-[#8469de] rounded-full">
+            <img src="img/catVector.svg" alt="" />
+          </div>
+          <span class="text-xs font-bold text-[#282433]">Passo 1</span>
+          <p class="text-xs text-[#606060]">Escolha seu futuro amigo</p>
+        </div>
+        <div
+          id="card1"
+          class="w-32 flex flex-col items-center text-center gap-1"
+        >
+          <div class="w-fit p-5 bg-[#8469de] rounded-full">
+            <img src="img/chat.svg" alt="" />
+          </div>
+          <span class="text-xs font-bold text-[#282433]">Passo 2</span>
+          <p class="text-xs text-[#606060]">
+            Deixe uma solicitação em nosso site e aguarde
+          </p>
+        </div>
+        <div
+          id="card1"
+          class="w-32 flex flex-col items-center text-center gap-1"
+        >
+          <div class="w-fit p-5 bg-[#8469de] rounded-full">
+            <img src="img/hand.svg" alt="" />
+          </div>
+          <span class="text-xs font-bold text-[#282433]">Passo 3</span>
+          <p class="text-xs text-[#606060]">
+            Venha a um de nossos abrigos para familiarizar-se e receber
+            instruções
+          </p>
+        </div>
+        <div
+          id="card1"
+          class="w-32 flex flex-col items-center text-center gap-1"
+        >
+          <div class="w-fit p-5 bg-[#8469de] rounded-full">
+            <img src="img/home.svg" alt="" />
+          </div>
+          <span class="text-xs font-bold text-[#282433]">Passo 4</span>
+          <p class="text-xs text-[#606060]">Leve seu novo amigo pra casa</p>
+        </div>
+      </div>
+    </section>
+    <footer id="footer"
+      class="w-full bg-[#282433] flex flex-col gap-4 items-center justify-between py-2"
+    >
+      <span class="text-white text-lg font-semibold"
+        >Entre em contato conosco!</span
+      >
+      <div class="flex gap-4">
+        <a
+          href="https://www.instagram.com/adopetoficial"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><img src="img/insta.svg" alt="" class="w-6 h-6"
+        /></a>
+        <a href="#"><img src="img/mail.svg" alt="" class="w-6 h-6" /></a>
+      </div>
+      <a href="/index.html"><img src="img/logo2.svg" alt="" class="w-14" /></a>
+      <span class="text-white text-lg font-light"
+        >© Adopet 2023 - Todos os Direitos Reservados</span
+      >
+    </footer>
+  </body>
+</html>
