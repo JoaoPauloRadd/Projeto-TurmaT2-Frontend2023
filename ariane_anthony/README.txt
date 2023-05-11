@@ -1,0 +1,4 @@
+Criadores:
+Somos Arithony, é isso mesmo, uma junção do nosso nome, Ariane e Anthony! Nos conhecemos no curso de Desenvolvimento de Sistemas na Proz/JF. Um adolescente de 17 anos e uma jovem-senhora de 23 não poderia dar em coisa melhor.... uma explosão de conhecimentos, vivências e novas experiências. Trazemos para vocês um pouco de conhecimento, um pouco sobre a Arte e seus mais famosos contribuidores. A Arte movimenta a nossa vida, seja nas pinturas, grafittes, dança, teatro e nas suas mais belas formas de expressão. Esperamos que tenham uma boa experiência no nosso site, e lembre-se: "Temos a arte para não perecermos na verdade". Boa leitura, até meus pincéizinhos de aquarela :)
+
+Não vamos esquecer também, nossa pagina principal é a AlmasnartE.html !!!
