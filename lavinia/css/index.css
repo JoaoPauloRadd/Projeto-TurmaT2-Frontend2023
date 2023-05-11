@@ -1,0 +1,62 @@
+.titulo{
+    background-color: rgb(255, 232, 247);
+    position: relative;
+    flex: azure;
+    text-align:center;
+}
+.inputs{
+    font-family: Couquette; 
+    font-size: 24px; 
+    vertical-align: middle; 
+    font-weight: bold; 
+    border: 2px solid #000000; 
+    padding: 0; 
+    background-color: #CCFFCC" size="1" maxlength="1"
+}
+
+.cadastro{
+    background-color:#FFB2AB ;
+}
+.cabecalho{
+    background-color: #FFB2AB;
+    align-items: center;
+    justify-items: center;
+    padding: 4px 4px 0px 4px;
+}
+body{
+    background-color: rgb(253, 229, 248);
+    padding-top: 70px;
+}
+
+navbar{
+    margin: 0% !important;
+    padding: 0% !important;
+    
+}
+
+.dropdown{
+    border: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+div.box {
+	width: 1000px;
+	display: inline-block;
+}
+
+.coluna{
+    float: left;
+    width: 45%;
+    border-image-width: center;
+}
+.imgs{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    
+    
+}
